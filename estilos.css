@@ -1,0 +1,145 @@
+*{
+    background-color: rgb(223, 255, 255);
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url('./img/online-1905876_1280.webp');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+header img{
+    width: 50%;
+}
+
+header h1, header ul {
+    position: relative;
+    z-index: 1;
+    background-color: black;
+}
+
+header h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+header ul {
+    position: absolute;
+    top: 70%;
+    width: 100%;  
+    display: flex; 
+    justify-content: center; 
+    background-color: black;
+    list-style: none;
+    float: none;
+}
+
+header ul li{
+    display: inline;
+    margin-right: 25px;
+    text-decoration: none;
+    background-color: black;
+    color: azure;
+}
+header ul li a{
+    text-decoration: none;
+    background-color: black;
+    color: azure;
+}
+
+
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    font-size: 20px;
+    margin-top: 0;
+}
+.Caracteristicas {
+    text-align: justify;
+}
+
+section img {
+    height: auto;
+    float: right;
+    margin: 0 0 20px 20px; 
+    max-width: 60%; 
+}
+section ol{
+    width: 100%;
+}
+section ol li{
+    font-weight: bold;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #070601;
+}
+table thead{
+    background-color: black;
+}
+
+table, th, td {
+    border: 1px solid #333;
+   
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+   
+}
+table, th {
+    padding: 10px;
+    text-align: left;
+    background-color: rgb(86, 85, 85);
+    color:#fff;
+}
+table, td {
+    padding: 10px;
+    text-align: left;
+    background-color: rgb(252, 242, 138);
+    color:black;
+}
+table, td ,form,button{
+    padding: 10px;
+    text-align: left;
+    background-color: rgb(252, 242, 138);
+    color:black;
+}
+section ul{
+    list-style: none;
+    float: none;
+    text-decoration: none;
+}
+section ul li{
+    text-decoration: none;
+
+}
+
+section ul li a{
+    text-decoration: none;
+}
+footer p{
+    color:white;
+    background-color: #070601;
+    text-align: right;
+    padding: 20px 0;
+}
